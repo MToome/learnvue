@@ -1,10 +1,17 @@
 {
   "name": "learnvue",
-  "module": "index.ts",
+  "module": "index.js",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "bulma": "^1.0.4",
+    "sass-embedded": "^1.97.2",
+    "vite": "^7.3.1"
   },
   "peerDependencies": {
     "typescript": "^5"
